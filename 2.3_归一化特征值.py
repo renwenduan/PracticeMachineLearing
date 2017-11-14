@@ -20,8 +20,14 @@ def autoNorm(dataset):
     return norm_data_set, ranges, minvals
 
 
-def datingDataMat:
+def dating_data_mat:
+    '''
+    这里应该是使用之前的数据,这里未导入等待导入
+    :return:
+    '''
     pass
 
 
-normMat, ranges, minVals = autoNorm(datingDataMat)
+if __name__ == '__main__':
+    norm_mat, ranges, min_vals = autoNorm(dating_data_mat)
+    print norm_mat
