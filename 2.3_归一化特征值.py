@@ -6,6 +6,7 @@ Product Name: PyCharm
 Date:  17/11/14
 -------------------------------------------------
 '''
+import KNN
 from numpy import *
 
 
@@ -25,9 +26,10 @@ def dating_data_mat:
     这里应该是使用之前的数据,这里未导入等待导入
     :return:
     '''
-    pass
+    norm_mat,ranges,min_vals =
+
 
 
 if __name__ == '__main__':
-    norm_mat, ranges, min_vals = autoNorm(dating_data_mat)
+    norm_mat, ranges, min_vals = autoNorm(KNN.autoNorm(dating_data_mat))
     print norm_mat
